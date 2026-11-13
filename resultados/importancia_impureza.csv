@@ -1,0 +1,8 @@
+,Árvore de decisão,Random Forest,Gradient Boosting
+chuva_mm,0.2702,0.2292,0.2257
+umidade_pct,0.2254,0.2174,0.2376
+potassio,0.0936,0.1714,0.1656
+fosforo,0.2088,0.1529,0.1453
+nitrogenio,0.1411,0.1111,0.1202
+temperatura_c,0.0528,0.0667,0.0617
+ph,0.0082,0.0513,0.0439

@@ -1,0 +1,8 @@
+,SVM,Árvore de decisão,Random Forest,Gradient Boosting
+umidade_pct,0.3523,0.5205,0.3118,0.3873
+nitrogenio,0.3473,0.2246,0.2139,0.2013
+chuva_mm,0.3553,0.3345,0.1905,0.3976
+potassio,0.3777,0.368,0.1522,0.1514
+fosforo,0.2517,0.4499,0.1316,0.2275
+ph,0.0327,0.0186,0.0134,0.0154
+temperatura_c,0.0575,0.0643,0.0009,0.013

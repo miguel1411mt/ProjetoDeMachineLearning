@@ -1,0 +1,64 @@
+ k   inercia  silhueta
+ 2 11738.011     0.417
+ 3  9489.462     0.252
+ 4  8105.864     0.255
+ 5  6856.212     0.292
+ 6  6045.093     0.304
+ 7  5248.626     0.333
+ 8  4842.083     0.327
+ 9  4472.455     0.332
+10  4110.154     0.349
+11  3845.097     0.347
+12  3621.403     0.335
+13  3387.413     0.349
+14  3162.805     0.339
+15  3007.897     0.342
+
+Amostras de cada cultura por grupo:
+ grupo               1    2    3    4    5    6   7
+cultura                                           
+algodão             0    0  100    0    0    0   0
+arroz               0  100    0    0    0    0   0
+banana              0    0  100    0    0    0   0
+café                0   80   20    0    0    0   0
+coco                0    2    0    0   98    0   0
+feijão-guandu      11    4    0    0    1   16  68
+feijão-mariposa    58    0    0    0    0    0  42
+feijão-mungo      100    0    0    0    0    0   0
+feijão-preto-urd  100    0    0    0    0    0   0
+feijão-roxo         0    0    0    0    0  100   0
+grão-de-bico        0    0    0    0    0  100   0
+juta                0  100    0    0    0    0   0
+laranja            11    0    0    0   89    0   0
+lentilha           95    0    0    0    0    4   1
+mamão              40   49    8    0    3    0   0
+manga              13    0    0    0    0    0  87
+maçã                0    0    0  100    0    0   0
+melancia            0    0  100    0    0    0   0
+melão               0    0  100    0    0    0   0
+milho               2    0   96    0    0    2   0
+romã                0    0    0    0  100    0   0
+uva                 0    0    0  100    0    0   0
+Grupo 1 (430 amostras): {'feijão-mungo': 100, 'feijão-preto-urd': 100, 'lentilha': 95, 'feijão-mariposa': 58, 'mamão': 40}
+Grupo 2 (335 amostras): {'arroz': 100, 'juta': 100, 'café': 80, 'mamão': 49}
+Grupo 3 (524 amostras): {'algodão': 100, 'banana': 100, 'melancia': 100, 'melão': 100, 'milho': 96, 'café': 20}
+Grupo 4 (200 amostras): {'maçã': 100, 'uva': 100}
+Grupo 5 (291 amostras): {'romã': 100, 'coco': 98, 'laranja': 89}
+Grupo 6 (222 amostras): {'feijão-roxo': 100, 'grão-de-bico': 100}
+Grupo 7 (198 amostras): {'manga': 87, 'feijão-guandu': 68, 'feijão-mariposa': 42}
+
+Medianas por grupo:
+        amostras  nitrogenio  fosforo  potassio  temperatura_c  umidade_pct   ph  chuva_mm
+grupo                                                                                    
+1           430        28.0     59.0      20.0           28.6         66.8  7.0      56.0
+2           335        81.0     45.0      39.0           25.2         80.9  6.7     189.4
+3           524       100.0     40.0      46.0           25.7         81.6  6.4      72.7
+4           200        24.0    135.0     200.0           22.6         87.0  5.9      87.5
+5           291        20.0     18.0      31.0           24.5         92.0  6.4     111.8
+6           222        28.0     68.0      24.0           19.3         19.4  6.1      87.8
+7           198        21.0     43.5      24.0           30.0         50.1  5.5      96.0
+
+ARI entre grupos e culturas: 0.338
+ARI com 10 sementes (n_init=1): mínimo 0.722 | médio 0.872
+ARI em 20 subamostras de 80%: médio 0.991 | mínimo 0.979
+Variância explicada pelos 2 componentes: 0.461

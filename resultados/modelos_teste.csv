@@ -1,0 +1,5 @@
+modelo,accuracy,precision_macro,recall_macro,f1_macro,roc_auc_macro_ovr,erros
+SVM,0.9879,0.989,0.9879,0.9878,0.9995,4
+Árvore de decisão,1.0,1.0,1.0,1.0,1.0,0
+Random Forest,0.997,0.9972,0.997,0.997,1.0,1
+Gradient Boosting,0.9939,0.9947,0.9939,0.994,1.0,2

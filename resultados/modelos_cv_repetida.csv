@@ -1,0 +1,5 @@
+modelo,f1_medio,desvio,minimo,maximo
+SVM,0.987,0.0065,0.9758,0.9973
+Árvore de decisão,0.9855,0.0062,0.9754,0.9973
+Random Forest,0.9936,0.0033,0.9866,1.0
+Gradient Boosting,0.9834,0.0063,0.9729,0.9947
